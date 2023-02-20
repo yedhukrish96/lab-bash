@@ -1,2 +1,82 @@
+1:
+(base) maja@MacBook-Pro-Maja ~ % echo 'Hello World'
+Hello World
+
+2:
+cd Desktop/IH-Labs/lab-bash
 mkdir new_dir
+
+3:
 rmdir new_dir
+
+4:
+cp sed.txt ../lorem-copy/
+
+5:
+cp at.txt lorem.txt ../lorem-copy/;
+
+6:
+cat sed.txt
+
+7:
+cat at.txt lorem.txt
+
+8:
+head -3 sed.txt
+
+9:
+tail -3 sed.txt
+
+10:
+nano sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+accusantium doloremque laudantium,
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi archite$
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,   
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.  
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, a$
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliq$
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit l$
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderi$
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+
+11.
+tail -3 sed.txt
+
+12:
+sed 's/ET/et/' at.txt
+At vero eos et accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non 
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+Et harum quidem rerum facilis est et expedita distinctio. 
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod 
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniET 
+ut et voluptates repudiandae sint ET molestiae non recusandae. 
+Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores 
+alias consequatur aut perferendis doloribus asperiores repellat
+
+13:
+whoami
+
+14:
+pwd
+
+15:
+git ls-files '*.txt'
+at.txt
+lorem.txt
+sed.txt
+
+16:
+cat sed.txt | wc
+  9     131     891
+
+17:
+ls -q *lorem* | wc -l 
+       1
+I referred to https://unix.stackexchange.com/users/100397/roaima. I went through his profile and found the commands.       
+
+
+
+
